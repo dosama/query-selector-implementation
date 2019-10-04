@@ -1,14 +1,6 @@
 const fs = require('fs').promises;
 
 function select(selector) {
-  // Implement this function. Use the provided test file to see how should this behave.
-  // Do not use `document.querySelector`, `document.querySelectorAll`, or any library.
-  // For coding style, we prefer functional programming, and simplicity.
-
-  // Your solution should only consider the test cases, any other behaviour is out of scope.
-
-  // When it's done, rename this file to `UI Assignment - <your name>.txt`,
-  // and email it back.
 
   var xmlString = document.body.innerHTML;
   var doc = new DOMParser().parseFromString(xmlString, 'text/html');
