@@ -1,0 +1,17 @@
+{
+  "name": "prescreening",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jest": "^24.9.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
